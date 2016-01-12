@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC27EE091C455722004BBAE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC27EE081C455722004BBAE5 /* AppDelegate.m */; };
+		BC27EE0C1C455722004BBAE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC27EE0B1C455722004BBAE5 /* main.m */; };
+		BC27EE0F1C455722004BBAE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC27EE0E1C455722004BBAE5 /* ViewController.m */; };
+		BC27EE111C455722004BBAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC27EE101C455722004BBAE5 /* Assets.xcassets */; };
+		BC27EE141C455722004BBAE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC27EE121C455722004BBAE5 /* Main.storyboard */; };
+		BC27EE1F1C455722004BBAE5 /* OSXCalendarNSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC27EE1E1C455722004BBAE5 /* OSXCalendarNSTests.m */; };
+		BC27EE2A1C455722004BBAE5 /* OSXCalendarNSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC27EE291C455722004BBAE5 /* OSXCalendarNSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC27EE1B1C455722004BBAE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC27EDFC1C455722004BBAE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC27EE031C455722004BBAE5;
+			remoteInfo = OSXCalendarNS;
+		};
+		BC27EE261C455722004BBAE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC27EDFC1C455722004BBAE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC27EE031C455722004BBAE5;
+			remoteInfo = OSXCalendarNS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC27EE041C455722004BBAE5 /* OSXCalendarNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSXCalendarNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC27EE071C455722004BBAE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC27EE081C455722004BBAE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC27EE0B1C455722004BBAE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC27EE0D1C455722004BBAE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC27EE0E1C455722004BBAE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC27EE101C455722004BBAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC27EE131C455722004BBAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC27EE151C455722004BBAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC27EE1A1C455722004BBAE5 /* OSXCalendarNSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSXCalendarNSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC27EE1E1C455722004BBAE5 /* OSXCalendarNSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSXCalendarNSTests.m; sourceTree = "<group>"; };
+		BC27EE201C455722004BBAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC27EE251C455722004BBAE5 /* OSXCalendarNSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSXCalendarNSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC27EE291C455722004BBAE5 /* OSXCalendarNSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSXCalendarNSUITests.m; sourceTree = "<group>"; };
+		BC27EE2B1C455722004BBAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC27EE011C455722004BBAE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC27EE171C455722004BBAE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC27EE221C455722004BBAE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC27EDFB1C455722004BBAE5 = {
+			isa = PBXGroup;
+			children = (
+				BC27EE061C455722004BBAE5 /* OSXCalendarNS */,
+				BC27EE1D1C455722004BBAE5 /* OSXCalendarNSTests */,
+				BC27EE281C455722004BBAE5 /* OSXCalendarNSUITests */,
+				BC27EE051C455722004BBAE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC27EE051C455722004BBAE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC27EE041C455722004BBAE5 /* OSXCalendarNS.app */,
+				BC27EE1A1C455722004BBAE5 /* OSXCalendarNSTests.xctest */,
+				BC27EE251C455722004BBAE5 /* OSXCalendarNSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC27EE061C455722004BBAE5 /* OSXCalendarNS */ = {
+			isa = PBXGroup;
+			children = (
+				BC27EE071C455722004BBAE5 /* AppDelegate.h */,
+				BC27EE081C455722004BBAE5 /* AppDelegate.m */,
+				BC27EE0D1C455722004BBAE5 /* ViewController.h */,
+				BC27EE0E1C455722004BBAE5 /* ViewController.m */,
+				BC27EE101C455722004BBAE5 /* Assets.xcassets */,
+				BC27EE121C455722004BBAE5 /* Main.storyboard */,
+				BC27EE151C455722004BBAE5 /* Info.plist */,
+				BC27EE0A1C455722004BBAE5 /* Supporting Files */,
+			);
+			path = OSXCalendarNS;
+			sourceTree = "<group>";
+		};
+		BC27EE0A1C455722004BBAE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC27EE0B1C455722004BBAE5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC27EE1D1C455722004BBAE5 /* OSXCalendarNSTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC27EE1E1C455722004BBAE5 /* OSXCalendarNSTests.m */,
+				BC27EE201C455722004BBAE5 /* Info.plist */,
+			);
+			path = OSXCalendarNSTests;
+			sourceTree = "<group>";
+		};
+		BC27EE281C455722004BBAE5 /* OSXCalendarNSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC27EE291C455722004BBAE5 /* OSXCalendarNSUITests.m */,
+				BC27EE2B1C455722004BBAE5 /* Info.plist */,
+			);
+			path = OSXCalendarNSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC27EE031C455722004BBAE5 /* OSXCalendarNS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC27EE2E1C455722004BBAE5 /* Build configuration list for PBXNativeTarget "OSXCalendarNS" */;
+			buildPhases = (
+				BC27EE001C455722004BBAE5 /* Sources */,
+				BC27EE011C455722004BBAE5 /* Frameworks */,
+				BC27EE021C455722004BBAE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSXCalendarNS;
+			productName = OSXCalendarNS;
+			productReference = BC27EE041C455722004BBAE5 /* OSXCalendarNS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC27EE191C455722004BBAE5 /* OSXCalendarNSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC27EE311C455722004BBAE5 /* Build configuration list for PBXNativeTarget "OSXCalendarNSTests" */;
+			buildPhases = (
+				BC27EE161C455722004BBAE5 /* Sources */,
+				BC27EE171C455722004BBAE5 /* Frameworks */,
+				BC27EE181C455722004BBAE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC27EE1C1C455722004BBAE5 /* PBXTargetDependency */,
+			);
+			name = OSXCalendarNSTests;
+			productName = OSXCalendarNSTests;
+			productReference = BC27EE1A1C455722004BBAE5 /* OSXCalendarNSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC27EE241C455722004BBAE5 /* OSXCalendarNSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC27EE341C455722004BBAE5 /* Build configuration list for PBXNativeTarget "OSXCalendarNSUITests" */;
+			buildPhases = (
+				BC27EE211C455722004BBAE5 /* Sources */,
+				BC27EE221C455722004BBAE5 /* Frameworks */,
+				BC27EE231C455722004BBAE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC27EE271C455722004BBAE5 /* PBXTargetDependency */,
+			);
+			name = OSXCalendarNSUITests;
+			productName = OSXCalendarNSUITests;
+			productReference = BC27EE251C455722004BBAE5 /* OSXCalendarNSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC27EDFC1C455722004BBAE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SylvainRoux;
+				TargetAttributes = {
+					BC27EE031C455722004BBAE5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BC27EE191C455722004BBAE5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BC27EE031C455722004BBAE5;
+					};
+					BC27EE241C455722004BBAE5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BC27EE031C455722004BBAE5;
+					};
+				};
+			};
+			buildConfigurationList = BC27EDFF1C455722004BBAE5 /* Build configuration list for PBXProject "OSXCalendarNS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC27EDFB1C455722004BBAE5;
+			productRefGroup = BC27EE051C455722004BBAE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC27EE031C455722004BBAE5 /* OSXCalendarNS */,
+				BC27EE191C455722004BBAE5 /* OSXCalendarNSTests */,
+				BC27EE241C455722004BBAE5 /* OSXCalendarNSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC27EE021C455722004BBAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC27EE111C455722004BBAE5 /* Assets.xcassets in Resources */,
+				BC27EE141C455722004BBAE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC27EE181C455722004BBAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC27EE231C455722004BBAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC27EE001C455722004BBAE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC27EE0F1C455722004BBAE5 /* ViewController.m in Sources */,
+				BC27EE0C1C455722004BBAE5 /* main.m in Sources */,
+				BC27EE091C455722004BBAE5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC27EE161C455722004BBAE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC27EE1F1C455722004BBAE5 /* OSXCalendarNSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC27EE211C455722004BBAE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC27EE2A1C455722004BBAE5 /* OSXCalendarNSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC27EE1C1C455722004BBAE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC27EE031C455722004BBAE5 /* OSXCalendarNS */;
+			targetProxy = BC27EE1B1C455722004BBAE5 /* PBXContainerItemProxy */;
+		};
+		BC27EE271C455722004BBAE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC27EE031C455722004BBAE5 /* OSXCalendarNS */;
+			targetProxy = BC27EE261C455722004BBAE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC27EE121C455722004BBAE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC27EE131C455722004BBAE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC27EE2C1C455722004BBAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BC27EE2D1C455722004BBAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BC27EE2F1C455722004BBAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSXCalendarNS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OSXCalendarNS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC27EE301C455722004BBAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSXCalendarNS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OSXCalendarNS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC27EE321C455722004BBAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSXCalendarNSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OSXCalendarNSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSXCalendarNS.app/Contents/MacOS/OSXCalendarNS";
+			};
+			name = Debug;
+		};
+		BC27EE331C455722004BBAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSXCalendarNSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OSXCalendarNSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSXCalendarNS.app/Contents/MacOS/OSXCalendarNS";
+			};
+			name = Release;
+		};
+		BC27EE351C455722004BBAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSXCalendarNSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OSXCalendarNSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OSXCalendarNS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BC27EE361C455722004BBAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSXCalendarNSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OSXCalendarNSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OSXCalendarNS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC27EDFF1C455722004BBAE5 /* Build configuration list for PBXProject "OSXCalendarNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC27EE2C1C455722004BBAE5 /* Debug */,
+				BC27EE2D1C455722004BBAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC27EE2E1C455722004BBAE5 /* Build configuration list for PBXNativeTarget "OSXCalendarNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC27EE2F1C455722004BBAE5 /* Debug */,
+				BC27EE301C455722004BBAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC27EE311C455722004BBAE5 /* Build configuration list for PBXNativeTarget "OSXCalendarNSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC27EE321C455722004BBAE5 /* Debug */,
+				BC27EE331C455722004BBAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC27EE341C455722004BBAE5 /* Build configuration list for PBXNativeTarget "OSXCalendarNSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC27EE351C455722004BBAE5 /* Debug */,
+				BC27EE361C455722004BBAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC27EDFC1C455722004BBAE5 /* Project object */;
+}
