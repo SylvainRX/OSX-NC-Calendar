@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Calendar.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>OSXCalendarNS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>BC27EE241C455722004BBAE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC27FAEB1C49193500626686</key>
 		<dict>
 			<key>primary</key>
 			<true/>
