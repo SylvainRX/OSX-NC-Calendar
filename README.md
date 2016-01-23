@@ -1,6 +1,4 @@
 # OSXCalendarNS
-Notification Center Today Widget Basic Calendar
-
 <p>
   A very basic calendar for OSX's Notification Center without event nor reminders handling.
 </p>
