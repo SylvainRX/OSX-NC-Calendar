@@ -19,6 +19,7 @@
 		BC27FAF81C49193500626686 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC27FAF61C49193500626686 /* TodayViewController.xib */; };
 		BC27FAFC1C49193500626686 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC27FAFA1C49193500626686 /* InfoPlist.strings */; };
 		BC27FAFF1C49193500626686 /* Calendar.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BC27FAEC1C49193500626686 /* Calendar.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BC2BE7CE1DD76F4300A339A6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BC2BE7CD1DD76F4300A339A6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		BC27FAF71C49193500626686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TodayViewController.xib; sourceTree = "<group>"; };
 		BC27FAF91C49193500626686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC27FAFB1C49193500626686 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC2BE7CD1DD76F4300A339A6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		BC27EDFB1C455722004BBAE5 = {
 			isa = PBXGroup;
 			children = (
+				BC2BE7CD1DD76F4300A339A6 /* README.md */,
 				BC27EE061C455722004BBAE5 /* OSXCalendarNS */,
 				BC27EE1D1C455722004BBAE5 /* OSXCalendarNSTests */,
 				BC27EE281C455722004BBAE5 /* OSXCalendarNSUITests */,
@@ -381,6 +384,7 @@
 			files = (
 				BC27EE0F1C455722004BBAE5 /* ViewController.m in Sources */,
 				BC27EE0C1C455722004BBAE5 /* main.m in Sources */,
+				BC2BE7CE1DD76F4300A339A6 /* README.md in Sources */,
 				BC27EE091C455722004BBAE5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

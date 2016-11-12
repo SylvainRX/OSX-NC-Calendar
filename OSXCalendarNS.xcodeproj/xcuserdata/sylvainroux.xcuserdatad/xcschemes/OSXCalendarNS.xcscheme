@@ -20,6 +20,20 @@
                ReferencedContainer = "container:OSXCalendarNS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BC27FAEB1C49193500626686"
+               BuildableName = "Calendar.appex"
+               BlueprintName = "Calendar"
+               ReferencedContainer = "container:OSXCalendarNS.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
